@@ -1,0 +1,563 @@
+@media screen and (max-width:1109.98px) {
+     .footer {
+          width: 100%;
+          height: auto;
+          // background-color: #F6F6F7;
+          // background-color: red !important;
+          // border: 1px solid blue;
+          margin: auto;
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          flex-wrap: wrap;
+          justify-content: center !important;
+          padding: 40px 0px;
+
+          .card {
+               width: 220px !important;
+               height: auto !important;
+               display: flex !important;
+               // flex-direction: column !important  ;
+               // background-color: orange !important;
+               align-items: center;
+               background-color: #F6F6F7;
+               // gap: 10px !important;
+
+               .kat {
+                    font-size: 18px;
+                    font-weight: 600;
+               }
+
+               ul {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+               }
+
+               ul li a {
+                    text-decoration: none;
+                    color: #44424B;
+               }
+
+               .icons {
+                    width: 150px;
+                    height: 60px;
+                    // border: 1px solid orange;  
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 15px;
+
+                    a {
+                         font-size: 20px;
+                    }
+               }
+
+               .card1 {
+                    width: 250px;
+                    height: auto;
+                    // border: 1px solid orange;  
+                    background-color: none;
+                    display: flex;
+                    justify-content: center;
+                    gap: 20px;
+                    align-items: center;
+
+                    a {
+                         font-size: 25px;
+                         color: #888F;
+                    }
+
+                    .med_text {
+                         width: 150px;
+                         height: auto;
+                         // background-color: orange;
+                         display: flex;
+                         flex-direction: column;
+                         align-items: center;
+                         justify-content: center;
+
+                         .mForm {
+                              font-size: 20px;
+                              font-weight: 600;
+                              color: red;
+
+                              .med {
+                                   color: #111;
+                              }
+                         }
+
+                         .ta {
+                              font-size: 12px;
+                              margin-top: -15px;
+                         }
+                    }
+
+               }
+          }
+     }
+     .MedForma {
+          width: 80% ;
+          height: auto;
+          // border: 1px solid red;
+          margin: auto;
+          display: flex;
+          // background-color: red;
+          gap: 20px;
+          justify-content: center;
+          flex-wrap: wrap;
+
+          .medForm_left {
+               width: 300px !important;
+               height: auto;
+               display: flex !important;
+               justify-content: center !important;
+               align-items: center;
+
+               .center {
+                    width: 350px;
+                    height: auto;
+                    padding: 10px;
+
+                    .nash {
+                         font-size: 30px;
+                         color: #111;
+                    }
+
+                    .info {
+                         font-size: 23px;
+                         color: var(--111, #111);
+                    }
+
+                    .date {
+                         font-size: 18px;
+                         color: #878787;
+                    }
+
+                    .kart {
+                         width: 238px;
+                         height: 54px;
+                         border: 1px solid var(--ea-4953, #EA4953);
+                         background-color: #fff;
+                         color: #EA4953;
+                    }
+               }
+          }
+
+          .medForm_right {
+               width: 350px;
+               height: auto;
+
+               img {
+                    width: 100%;
+                    height: 400px;
+               }
+          }
+     }
+}
+
+@media screen and(max-width: 1025px) {
+     .card1 {
+          .ca-bot {
+               width: 100%;
+               background-color: blue;
+               padding: 10px 0px;
+               display: flex;
+               justify-content: center;
+               gap: 55px !important;
+          }
+     }
+
+
+}
+
+@media screen and(max-width:1000px) {
+     .ca-bot {
+          width: 100%;
+          // background-color: red;
+          padding: 10px 0px;
+          display: flex;
+          justify-content: center;
+          gap: 55px !important;
+     }
+}
+
+@media screen and(max-width:991.98px) {
+     .container {
+          width: 1000px !important;
+          // background-color: orange;
+     }
+
+     .MedForma {
+          width: 80%;
+          height: auto;
+          // border: 1px solid red;
+          margin: auto;
+          display: flex;
+          // background-color: green;
+          justify-content: center !important;
+          align-items: center;
+          flex-wrap: wrap;
+
+          .medForm_left {
+               width: 100%;
+               height: auto;
+               // border: 1px solid blue;
+
+
+               .center {
+                    width: 500px;
+                    height: auto;
+                    // border: 1px solid red;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    // padding: 10px;
+
+                    .nash {
+                         font-size: 30px;
+                         color: #111;
+                    }
+
+                    .info {
+                         font-size: 23px;
+                         color: var(--111, #111);
+                    }
+
+                    .date {
+                         font-size: 18px;
+                         color: #878787;
+                    }
+
+                    .kart {
+                         width: 238px;
+                         height: 54px;
+                         border: 1px solid var(--ea-4953, #EA4953);
+                         background-color: #fff;
+                         color: #EA4953;
+                    }
+               }
+          }
+
+          .medForm_right {
+               width: 520px;
+               height: auto;
+               // border: 1px solid blue;
+
+               img {
+                    width: 100%;
+                    height: 400px;
+               }
+          }
+     }
+
+     .carusel {
+          .owl-prev {
+               width: 30px;
+               height: 30px;
+               border-radius: 50%;
+               display: none !important;
+
+          }
+
+          .owl-next {
+               width: 30px;
+               height: 30px;
+               display: none !important;
+          }
+
+          .owl-nav {
+               height: auto !important;
+          }
+     }
+
+     ul {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+     }
+
+}
+
+@media screen and(max-width:499.98px) {
+     .MedForma {
+          width: 80%;
+          height: auto;
+          // border: 1px solid red;
+          margin: auto;
+          display: flex;
+          // background-color: green;
+          justify-content: center !important;
+          align-items: center;
+          flex-wrap: wrap;
+
+          .medForm_left {
+               width: 100%;
+               height: auto;
+               // border: 1px solid blue;
+
+
+               .center {
+                    width: 500px;
+                    height: auto;
+                    // border: 1px solid red;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    // padding: 10px;
+
+                    .nash {
+                         font-size: 20px;
+                         color: #111;
+                    }
+
+                    .info {
+                         font-size: 18px;
+                         color: var(--111, #111);
+                    }
+
+                    .date {
+                         font-size: 15px;
+                         color: #878787;
+                    }
+
+                    .kart {
+                         width: 180px !important;
+                         height: 54px;
+                         // border: 1px solid var(--ea-4953, #EA4953);
+                         background-color: #fff;
+                         color: #EA4953;
+                    }
+               }
+          }
+
+          .medForm_right {
+               width: 520px;
+               height: auto;
+               // border: 1px solid blue;
+
+               img {
+                    width: 100%;
+                    height: 400px;
+               }
+          }
+     }
+}
+
+@media screen and (max-width:949.98px) {
+     .logos1 {
+          width: 100%;
+          // border: 1px solid red;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          gap: 15px;
+
+          .logos {
+               order: 1;
+          }
+
+          .carusel {
+               .btn {
+                    height: auto !important;
+               }
+          }
+     }
+
+}
+
+@media screen and (max-width:931.98px) {
+     .navlink {
+          width: 90% !important;
+          // border: 1px solid blue;
+
+
+          ul {
+               display: flex;
+               justify-content: center;
+               gap: 20px !important;
+          }
+     }
+}
+
+@media screen and(max-width:767.98px) {
+     .navbars {
+          display: none !important;
+
+     }
+
+     .btn {
+          width: 100%;
+          height: auto !important;
+          // border: 1px solid #fff;
+          // margin-right: -10px;
+          position: relative;
+     }
+
+
+     .owl-item {
+          width: 500px;
+     }
+
+     .owl-nav {
+          height: 0px;
+          display: none !important;
+          padding: 10px;
+     }
+
+     .carusel2 {
+          display: flex !important;
+          justify-content: center !important;
+          // gap: 20px;
+          border: none;
+
+          .btn {
+               width: 350px;
+               margin: auto !important;
+               border: none !important;
+          }
+     }
+
+     .owl-prev {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          // border: 1px solid grey !important;
+          background-color: none !important;
+          // margin-top: 10px;
+          display: none !important;
+     }
+
+     .owl-prev {
+          display: none !important;
+     }
+
+     .tugma {
+          display: block !important;
+     }
+
+}
+
+@media screen and (max-width:660.98) {
+
+     .carusel {
+
+          width: 50%;
+          // background-color: red;
+
+          .btn {
+               height: auto !important;
+          }
+     }
+}
+
+@media screen and(max-width:689.98px) {
+     .carusel {
+          .btn {
+               width: 100%;
+               height: auto !important;
+               // border: 1px solid #fff;
+               // margin-right: -10px;
+               position: relative;
+          }
+     }
+
+}
+
+@media screen and (max-width:399.98px) {
+     .logos1 {
+          padding: 0px;
+
+          .texts {
+               .med_form {
+                    font-size: 18px;
+               }
+
+               .med_form2 {
+                    font-size: 48px;
+               }
+          }
+     }
+
+     .MedForma {
+          width: 80%;
+          height: auto;
+          // border: 1px solid red;     
+          margin: auto;
+          display: flex !important;
+          // background-color: green;
+          justify-content: center !important;
+          align-items: center;
+          gap: 30px !important;
+          flex-wrap: wrap;
+
+          .medForm_left {
+               width: 100%;
+               height: auto;
+               // border: 1px solid blue;
+
+
+               .center {
+                    width: 80% !important;
+                    height: auto;
+                    // border: 1px solid red;
+                    display: flex;
+                    flex-direction: column;
+                    // gap: 50px !important;
+                    align-items: center;
+                    justify-content: center;
+                    // padding: 10px;
+
+                    .nash {
+                         font-size: 25px !important;
+                         color: #111;
+                         text-align: center;
+                    }
+
+                    .info {
+                         font-size: 18px !important;
+                         color: var(--111, #111);
+                    }
+
+                    .date {
+                         font-size: 15px !important;
+                         color: #878787;
+                    }
+
+                    .kart {
+                         width: 150px !important;
+                         height: 54px;
+                         // border: 1px solid var(--ea-4953, #EA4953);
+                         background-color: #fff;
+                         color: #EA4953;
+                         font-size: 12px !important;
+                    }
+               }
+          }
+
+          .medForm_right {
+               width: 520px;
+               height: auto;
+               // border: 1px solid blue;
+
+               img {
+                    width: 100%;
+                    height: 400px;
+               }
+          }
+     }
+}
+
+@media screen and(max-width:349.98px) {
+     .logos1 {
+          padding: 10px 0px !important;
+     }
+
+     .logos {
+          width: 100% !important;
+          // background-color: red;
+     }
+}
